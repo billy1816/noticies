@@ -40,7 +40,7 @@ $(document).ready(function() {
 	/*Cargar noticias al pulsar boton */
 	$('#boton1').click(function() { /*revisar EL BOTON HA DE ESTAR OPERATIVO SOLO SI EL AUTOSCROLL ESTA DESACTIVADO???*/
 		if (data < 6) {
-			$.getJSON( 'https://github.com/MariaAdrover/LM_PRACTICA6/tree/v0.4/data' + data + '.json', function(jsonObject) {
+			$.getJSON( 'https://github.com/billy1816/noticies/master/data' + data + '.json', function(jsonObject) {
 				afegirBloc(jsonObject);
 			});
 			data++;
