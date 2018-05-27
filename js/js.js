@@ -33,7 +33,7 @@ $(document).ready(function() {
 		if ((window.matchMedia('(min-width: 768px)').matches)) {
 			$('#news1').focus();
 		} else {			
-			$('#botonMenu').focus();
+			$('#botonVolver').hide();
 		}		
 	});
 	
