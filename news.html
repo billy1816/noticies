@@ -1,32 +1,35 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang='es'>
     <head>
         <title>ElChapuzasInformatico</title>
+		<link rel="icon" type="img/png" href="img/ch.png" />
         <meta charset="utf-8">
-        <meta name="description" content="Descripció curta important. Descripció curta important. Descripció curta important."/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <meta name="description" content="Noticias informatica"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- OGP -->
+		<meta property="og:site_name" content="El Chapuzas Informatico">
+		<meta property="og:url" content="">
+		<meta property="og:title" content="ECI">
+		<meta property="og:image" content="img/ch.png">
+		<meta property="og:description" content="Noticias informatica">
 		<!--Fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Prompt:700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Fira+Sans:800" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Archivo:700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Mukta+Malar:700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link href="https://fonts.googleapis.com/css?family=Prompt:400,700" rel="stylesheet">
 		<!--Librerias Bootstrap y JQuery-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- cambios de orientacion REVISAR-->
 		<!--CSS Que medidas pongo?-->
 		<link rel='stylesheet' href='css/news.css'>
 		<!--<link rel='stylesheet' type="text/css" media='screen and (min-width: 768px)' href='css/e768.css'>
 		<link rel='stylesheet' type="text/css" media='screen and (max-width: 767px)' href='css/m767.css'> -->
         <script src="js/js.js"></script>
     </head>
-    <body>
+    <body> <!--data-spy="scroll"-->
         <div class='jumbotron'>
 			<div class = 'container-fluid'>
-				<img src="img/logo2.png" class="img-responsive center-block" alt ='climb'/>
+				<img src="img/logo2.png" id="logo" class="img-responsive center-block" alt ='climb'/>
 			</div>
         </div>
 		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
@@ -124,7 +127,7 @@
 				<a href="#"><img class="img-responsive center-block" src="img\publicidad.jpg" alt="publicidad"/></a>
 			</div>
 			<div>
-				<div class="container-fluid" id="noticias">
+			<div class="container-fluid" id="noticias">
 					<div class="row">
 						<div class="col-sm-6">
 							<div class='thumbnail shortNew'>
@@ -179,10 +182,13 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<button id = 'boton1' type="button" class="btn btn-success">Cargar Noticias</button>
+				<button id = 'boton1' type="button" class="btn btn-block btn-primary">VER MÁS NOTICIAS</button>
 			</div>
 		</div>
-		<div id = 'pie'>&#169;
+		<div id="botonVolver">
+			<img id="irUp" src="img/up.jpg" alt="up">
+		</div>
+		
+	
     </body>
 </html>

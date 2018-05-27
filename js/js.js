@@ -38,9 +38,9 @@ $(document).ready(function() {
 	});
 	
 	/*Cargar noticias al pulsar boton */
-	$('#boton1').click(function() { /*revisar EL BOTON HA DE ESTAR OPERATIVO SOLO SI EL AUTOSCROLL ESTA DESACTIVADO???*/
+	$('#boton1').click(function() {
 		if (data < 6) {
-			$.getJSON( 'https://rawgit.com/billy1816/noticies/master/data/data' + data + '.json', function(jsonObject) {
+			$.getJSON( 'https://rawgit.com/MariaAdrover/LM_PRACTICA6/v0.3/data/data' + data + '.json', function(jsonObject) {
 				afegirBloc(jsonObject);
 			});
 			data++;
@@ -49,25 +49,7 @@ $(document).ready(function() {
 		}
 	});
 	
-	/* ------ ACTIVAR/DESACTIVAR AUTOSCROLL -----*/
-	$('#autoscroll').click(function(){
-		if (auto) {
-			auto=false;
-			$('#autoscroll').text('Activar Autoscroll');
-		} else {
-			auto=true;
-			$('#autoscroll').text('Desactivar AutoScroll');
-		}
-	});	
 	
-	/*Mostrar/Ocultar gif de carga
-	$(document).ajaxStart(function(){
-		$('#loading').show();
-	});
-	$(document).ajaxSuccess(function(){
-		$('#loading').hide();
-	});
-	*/
 
 	
 	//-------------------quitar
@@ -84,13 +66,13 @@ $(document).ready(function() {
 			ajustarPadding();
 		}
 		
-		if (location.href=='https://rawgit.com/MariaAdrover/LM_PRACTICA6/v0.4/news.html' && auto) {
+		if (location.href=='https://rawgit.com/MariaAdrover/LM_PRACTICA6/v0.3/news.html' && auto) {
 			if ($(window).scrollTop() + $(window).height() >= $(document).height() - offset) { /*-------REVISAR offset*/
 				if (data < 6) {
 					/*Mostrar ventana de carga*/
 					$('#loading').show();
 					/*Cargar noticias*/
-					$.getJSON('https://rawgit.com/MariaAdrover/LM_PRACTICA6/v0.4/data/data' + data + '.json', function(jsonObject) {
+					$.getJSON( 'https://rawgit.com/MariaAdrover/LM_PRACTICA6/v0.3/data/data' + data + '.json', function(jsonObject) {
 					afegirBloc(jsonObject);
 					/*Ocultar ventana de carga*/
 					$('#loading').hide();
@@ -107,7 +89,8 @@ $(document).ready(function() {
 		
 		if ($(window).scrollTop()>finPubli) {
 			$('#autoscroll').show();
-			$('#botonVolver').show();			
+			$('#botonVolver').show();
+			/*ajustarBotons();*/			
 		}
 		if ($(window).scrollTop()<finPubli) {			
 			$('#autoscroll').hide();
@@ -127,14 +110,10 @@ function afegirBloc(jsonObject) {
 				+ '<div class="thumbnail shortNew">'
 					+ '<a href="#">'
 						+ '<h2 class="text-center">' + item.titulo + '</h2>'
-						+ '<p class="text-right fecha">' + item.fecha + '</p>'
-						+ '<p class="text-justify">' + item.texto + '</p>'				
+						+ '<p id="fecha" class="text-right">' + item.fecha + '</p>'
+						+ '<p class="text-justify">' + item.texto + '</p>'
+						+ '<img src="' + item.imagen + '" class="img-responsive" alt="' + item.alt + '">'					
 					+ '</a>'
-					+ '<picture>'
-						+ '<source srcset="' + item.imagenXs + '" media="(max-width: 400px)">'
-						+ '<source srcset="' + item.imagen + '" media="(min-width: 401px)">'
-						+ '<img src="' + item.imagen + '" class="img-responsive center-block" alt="' + item.alt + '">'
-					+ '</picture>'
 				+ '</div>'
 			+ '</div>'
 		);
