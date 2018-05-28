@@ -10,5 +10,11 @@
 	"texto":"Hoy tocan rumores en torno a la próxima generación de procesadores AMD Ryzen, oficialmente anunciados para el próximo año bajo la arquitectura Zen 2, la cual llegará basada en un proceso de fabricación de 7nm. Ahora los rumores comienzan a revelar nueva información, la cual indica que los procesadores de consumo de la serie Ryzen 3000 tendrán variantes de 12 y 16 núcleos.",
 	"imagen":"img/amd2.png",
 	"alt":"AMD Roadmap"
+}, {
+	"titulo":"El Dawn Wall de Adam Ondra",
+	"fecha":"18/03/2018  14:22",
+	"texto":"El escalador checo ha necesitado ocho días para completar la primera repetición del big wall más duro del mundo. Este es el resumen de su evolución en la línea más difícil en libre de El Capitan (Yosemite).",
+	"imagen":"img/n7.png",
+	"alt":"Adam Ondra"
 }
 ]
