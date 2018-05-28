@@ -105,46 +105,6 @@ html, body{
 	max-height:200px;
 }
 
-/*-----------------------------------------------------------------------------------------*/
-
-
-
-/* -----------------------------------------------------------------------------------------*/
-
-@media (min-width:768px) and (max-width:991px) {
-.jumbotron {
-	padding-top:20px;
-	padding-bottom:20px;	
-	}
-#logo {
-	max-height:100px;	
-	}
-
-.navbar {
-	font-size:0.8em;	
-}
-
-h1, h2 {
-	color:white;
-	background-color:#333;
-	font-size:2.7em; 
-}
-
-h3 {
-	font-size:2em;
-}
-
-p {
-	font-size:1.2em; 
-}
-
-.fecha {
-	font-size:0.7em;	
-}
-	
-}
-
-/* -----------------------------------------------------------------------------------------*/
 
 @media (min-width:992px) {
 
@@ -177,10 +137,6 @@ p {
 	
 }
 
-/* -----------------------------------------------------------------------------------------*/
-
-@media(min-width:768px) {
-
 .jumbotron {
 	background-image: url(../img/ch.png);
      background-repeat: no-repeat;
@@ -196,7 +152,6 @@ p {
 	max-height:200px;
 }
 
-/*imagen al lado del boton - logo*/
 .navbar-header img {
 	display:none;
 }
@@ -283,158 +238,3 @@ p {
 }
 
 }
-
-
-/* ----------------------------------------  MOVIL  ----------------------------------------*/
-
-@media(max-width:767px) {
-
-.navbar {
-	font-family: 'Prompt', sans-serif;	
-}
-
-h1, h2 {
-	color:white;
-	background-color:#333;
-}
-
-h3 {
-	font-size:1.8em;
-}
-
-p {
-	font-family: 'Prompt', sans-serif;
-	font-size:1.1em;
-}
-
-.fecha {
-	font-size:0.7em;	
-}
-
-.jumbotron {
-	display:none;
-}
-
-/*---boton oculto del menu. Header de la barra de navegacion---*/
-#botonMenu {
-	float:left;	
-    background-color: #333;
-	margin-top:28px;
-	margin-left:16px;
-}
-
-/*imagen al lado del boton - logo. Header de la barra de navegacion*/
-.navbar-header img {
-	height:100px;
-	padding:15px 15px;
-}
-
-/*---fondo Header de la barra de navegacion---*/
-.navbar-inverse {
-	background-image: url(../img/ch.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-	text-align:right;
-	border:none;
-	border-bottom:solid;
-	border-bottom-width:4px;
-	border-color:white;
-	margin-bottom:0;
-	outline-style:solid;
-	outline-width:1.5px;
-	outline-color:#333;
-}
-
-/*---contenedor barra de navegacion---*/
-#divMenu {
-	padding:0;
-	border:none;
-}
-
-/*---Contenidos barra de navegacion---*/
-#divMenu .navbar-header {
-	text-align:left;
-}
-
-#divMenu .navbar-nav {
-	margin:0;
-}
-
-/*---ClimbArt en el header del menu---*/
-#inicio {
-	color:orange;
-	display:block;
-	width:100%;
-	background-color:#333;
-}
-/*---menu---*/
-
-.navbar-inverse .navbar-nav>li>a {
-	color:#333;
-}
-
-.navbar-inverse .navbar_collapse {
-	background-color:white;
-    opacity:0.5;
-}
-
-#margen { /* ------------ NO CAMBIAR ORDEN. DESPUÉS DE .tipo a{} --------------*/
-	padding-top:16px;
-	padding-bottom:16px;
-	text-align:center;
-	text-indent:0;
-}
-
-.thumbnail {
-	padding:8px;
-	border:1.3px solid #ddd;
-	border-radius:4px;
-}
-
-.new, .shortNew {
-	background-color:#f8faf9;
-}
-
-#contenido {
-	padding:0;
-}
-
-#publicidad1 {
-	padding:0;
-	margin-top:10px;
-	margin-bottom:10px;
-	display:block;
-	text-align:center;
-}
-
-#publicidad1 iframe {
-	width:320px; 
-	height:100px;
-	border:solid;
-	border-color:#333;
-	border-bottom-width:1px;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-#publicidad2 {
-	display:none;
-}
-
-#boton1 {
-	width:calc(100% - 28px);
-	margin-bottom: 80px;
-}
-
-#autoscroll {
-	bottom:25px;
-	right:74px;	
-}
-	
-#botonVolver {
-	height:46px;
-	bottom:13px;
-	right:14px;
-}
-	
-} 
