@@ -9,14 +9,10 @@ var margin;
 
 /* $(function(){...}); --> window.onload = function() {...};*/
 $(document).ready(function() {	
-	
-	/*Activar tooltips*/
-	$('[data-toggle="tooltip"]').tooltip();
-
-	/*Desactivar boton submit*/
-	$('form').submit(function() {
+		$('[data-toggle="tooltip"]').tooltip();
+		$('form').submit(function() {
 		return false;
-	});
+		});
 	
 	/*determinar a cuantos pixeles se fija la barra del menu*/
 	var navBar = $( ".navbar-collapse" );
@@ -48,16 +44,6 @@ $(document).ready(function() {
 			$('#boton1').text('NO HAY MÁS NOTICIAS');
 		}
 	});
-	
-	
-
-	
-	//-------------------quitar
-	//$('#loading').show();
-	
-	/*TO DO: CREAR FUNCION onScroll*/
-	/*Cargar noticias al hacer scroll*/	
-	const offset = 50; /*REVISAR Y QUITAR*/
 	$(window).scroll(function() {
 		
 		/*Ajustar padding del div de contenido para que no de tirones al hacer scroll*/
@@ -88,12 +74,10 @@ $(document).ready(function() {
 		finPubli=200+offsetNav.top;
 		
 		if ($(window).scrollTop()>finPubli) {
-			$('#autoscroll').show();
 			$('#botonVolver').show();
 			/*ajustarBotons();*/			
 		}
 		if ($(window).scrollTop()<finPubli) {			
-			$('#autoscroll').hide();
 			$('#botonVolver').hide();	
 		}
 	});	
