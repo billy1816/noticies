@@ -19,12 +19,7 @@ $(document).ready(function() {
 	offsetNav=navBar.offset();
 	$(".navbar-inverse").attr('data-offset-top', offsetNav.top);	
 	
-	/*El menu NO es fijo para dispositivos de menos de 667px*/
-	if ((window.matchMedia('(max-width: 767px)').matches)) {		
-		$('nav').attr('data-spy', '');
-	}
-	
-	/*-----funcion boton volver------*/
+	/*VOLVER*/
 	$('#botonVolver').click(function(){	
 		if ((window.matchMedia('(min-width: 768px)').matches)) {
 			$('#news1').focus();
