@@ -36,22 +36,7 @@ html, body{
 	border-color:#333;
 }
 
-#autoscroll {
-	display:none;
-	position:fixed;
-	height:34px;
-	text-decoration: none;
-	border-color:#f0ad4e;
-	z-index:999;	
-}
 
-#autoscroll:focus {
-	background-color:#f0ad4e;
-}
-
-#autoscroll:active {
-	background-color:#f0ad4e;
-}
 	
 #botonVolver {
 	display:none;
