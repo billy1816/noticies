@@ -180,7 +180,7 @@ p {
 .navbar-inverse {
 	background-image: url(../img/ch.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 	text-align:right;
 	border:none;
 	border-bottom:solid;
