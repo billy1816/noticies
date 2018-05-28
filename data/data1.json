@@ -1,14 +1,14 @@
 [{
-	"titulo":"FUNCIONA",
-	"fecha":"23/03/2018  13:45",
-	"texto":"La joven francesa Julia FUNCIOANAAAAAAAAAAAAAAAAAA (de 21 años) logró el pasado 6 de abril embolsarse la vía Mollasse'son, ubicada en la zona francesa de Mollans-sur-Ouvèze. Se trata de una línea de 25 metros, caracterizada por un comienzo con un bloque duro (alrededor de 7C+) que recorre luego un desplome de resistencia.",
-	"imagen":"img/n5.jpg",
-	"alt":"Julia Chanourdie"
+	"titulo":"Gigabyte lanza su Geforce GTX 1050 3GB personalizada con overclock",
+	"fecha":"02/03/2018  11:45",
+	"texto":"Gigabyte anunció el lanzamiento de su propia GeForce GTX 1050 de 3 GB de capacidad, recordando que esta GPU se trata de un híbrido entre la GeForce GTX 1050 Ti 4GB y la GeForce GTX 1050 2GB, lo que se tradujo en que tenemos los 768 CUDA Cores de la GeForce GXT 1050 Ti, e incluso funcionando a una velocidad más rápida de 1392/1518 MHz Base/Turbo (vs 1290/1392 MHz) ofreciendo un rendimiento computacional de 2.33 TFLOPs, superior a los 2.14 TFLOPs de la GeForce GTX 1050 Ti.",
+	"imagen":"img/1050.jpg",
+	"alt":"1050 3GB"
 }, {
-	"titulo":"Dani Arnold abre ‘Power shrimps’ en las Helmcken Falls",
-	"fecha":"19/03/2018  09:20",
-	"texto":"El escalador y alpinista suizo consiguió firmar su propia vía en su tercer viaje a la famosa gruta canadiense. La forma de los carámbanos de hielo le inspiraron el nombre del itinerario: “gambas poderosas”.",
-	"imagen":"img/n6.png",
-	"alt":"Dani Arnold"
+	"titulo":"Los AMD Ryzen darían el salto a los 12 y 16 núcleos en el 2019",
+	"fecha":"01/03/2018  09:20",
+	"texto":"Hoy tocan rumores en torno a la próxima generación de procesadores AMD Ryzen, oficialmente anunciados para el próximo año bajo la arquitectura Zen 2, la cual llegará basada en un proceso de fabricación de 7nm. Ahora los rumores comienzan a revelar nueva información, la cual indica que los procesadores de consumo de la serie Ryzen 3000 tendrán variantes de 12 y 16 núcleos.",
+	"imagen":"img/amd2.png",
+	"alt":"AMD Roadmap"
 }
 ]
