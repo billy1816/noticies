@@ -66,7 +66,19 @@ p {
 	font-size:0.8em;	
 }
 	
+#noticias a {
+    text-decoration: none;
+	color: black;
+}
 
+#noticias a *:active {
+    text-decoration: none;
+	color: black;
+}
+
+#news1:focus {
+	outline:none;
+}
 
 .jumbotron {
 	background-image: url(../img/ch.png);
