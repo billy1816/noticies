@@ -26,7 +26,7 @@ $(document).ready(function() {
 	
 	/*Cargar noticias al pulsar boton */
 	$('#boton1').click(function() {
-		if (data < 6) {
+		if (data < 3) {
 			$.getJSON( 'https://rawgit.com/billy1816/noticies/billy1816-patch-1/data/data' + data + '.json', function(jsonObject) {
 				afegirBloc(jsonObject);
 			});
@@ -35,24 +35,8 @@ $(document).ready(function() {
 			$('#boton1').text('NO HAY MÁS NOTICIAS');
 		}
 	});
-	$(window).scroll(function() {		
-		if (location.href=='https://rawgit.com/billy1816/noticies/billy1816-patch-1/news.html' && auto) {
-			if ($(window).scrollTop() + $(window).height() >= $(document).height() - offset) { /*-------REVISAR offset*/
-				if (data < 3) {
-					/*Mostrar ventana de carga*/
-					$('#loading').show();
-					/*Cargar noticias*/
-					$.getJSON( 'https://rawgit.com/billy1816/noticies/billy1816-patch-1/data/data' + data + '.json', function(jsonObject) {
-					afegirBloc(jsonObject);
-					/*Ocultar ventana de carga*/
-					$('#loading').hide();
-					});
-					data++;
-				} else {
-					$('#boton1').text('NO HAY MÁS NOTICIAS');
-				}			
-			}
-		}
+	
+		
 		
 		
 		finPubli=200+offsetNav.top;
