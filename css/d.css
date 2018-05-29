@@ -14,26 +14,11 @@ html, body{
 	color:blue;
 }
 
-
-#noticias a {
-    text-decoration: none;
-	color: black;
-}
-
-#noticias a *:active {
-    text-decoration: none;
-	color: black;
-}
-
-#news1:focus {
-	outline:none;
-}
-
 #boton1 {
 	margin-left: 14px;
-	background-color:#333;
-	color:#f0ad4e;
-	border-color:#333;
+	background-color:rgba(51, 51, 51, 1);
+	color:rgba(255, 255, 255, 1;
+	
 }
 
 
@@ -53,45 +38,6 @@ html, body{
 	max-height:100%;
 }
 
-#pie {
-	position:fixed;
-	bottom:0;
-	width:100%;
-	height:14px;
-	color:white;
-	background-color:#333;
-	text-align:left;
-	font-family:Verdana;
-	font-size:0.7em;
-	padding-right:2%;
-	z-index:1000;
-}
-
-#loading {
-	display:none;
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background:rgba(51,51,51,0.6);
-	z-index:9999;
-}
-
-#loading img {
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin-top:-100px;
-	margin-left:-100px;
-	opacity:1;
-	width:200px;
-	max-width:200px;
-	max-height:200px;
-}
-
-
-@media (min-width:768px) {
 
 .jumbotron {	
 	padding-bottom: 8%;
@@ -120,7 +66,7 @@ p {
 	font-size:0.8em;	
 }
 	
-}
+
 
 .jumbotron {
 	background-image: url(../img/ch.png);
@@ -141,7 +87,7 @@ p {
 	display:none;
 }
 
-#margen { /* ------------ NO CAMBIAR ORDEN. DESPUÉS DE .tipo a{} --------------*/
+#margen { 
 	padding-top:16px;
 	padding-bottom:16px;
 	text-align:center;
@@ -189,21 +135,8 @@ p {
 	position:absolute; 
 	right:0px; 
 	width:320px;
-	/*height:615px;*/
 	padding:10px;
 	text-align:center;
-}
-
-#framePubli2{
-	width:300px;
-	height:600px;
-	border:solid;
-	border-color:#333;
-	border-bottom-width:1px;
-}
-
-#framePubli2:hover {	
-	opacity:0.7;
 }
 
 #boton1 {
@@ -211,10 +144,6 @@ p {
 	margin-bottom: 30px;
 }
 
-#autoscroll {
-	bottom:30px;
-	right:90px;	
-}
 
 #botonVolver {
 	height:50px;
@@ -222,4 +151,4 @@ p {
 	right:20px;
 }
 
-}
+
