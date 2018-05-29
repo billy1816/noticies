@@ -3,12 +3,14 @@ var offsetNav;
 var finPubli;
 
 
+/*login*/
+
 $(document).ready(function() {	
 		$('[data-toggle="tooltip"]').tooltip();
 		$('form').submit(function() {
 		return false;
 		});
-	
+/*boto volver*/	
 	
 var navBar = $( ".navbar-collapse" );
 	offsetNav=navBar.offset();
