@@ -40,15 +40,18 @@ $('#botonVolver').click(function(){
 	
 		
 		
-		
+	
 		finPubli=200+offsetNav.top;
-			if ($(window).scrollTop()>finPubli) {
-			$('#botonVolver').show();
+		
+		if ($(window).scrollTop()>finPubli) {
+			$('#botonVolver').show();			
 		}
 		if ($(window).scrollTop()<finPubli) {			
 			$('#botonVolver').hide();	
 		}
 	});	
+	
+});
 	
 
 /* --------------------------------- Funciones ---------------------------------- */
