@@ -35,17 +35,10 @@ $(document).ready(function() {
 			$('#boton1').text('NO HAY MÁS NOTICIAS');
 		}
 	});
-	$(window).scroll(function() {
-		
-		/*Ajustar padding del div de contenido para que no de tirones al hacer scroll*/
-		
-		if (window.matchMedia('(min-width:768px)').matches) {
-			ajustarPadding();
-		}
-		
+	$(window).scroll(function() {		
 		if (location.href=='https://rawgit.com/billy1816/noticies/billy1816-patch-1/news.html' && auto) {
 			if ($(window).scrollTop() + $(window).height() >= $(document).height() - offset) { /*-------REVISAR offset*/
-				if (data < 6) {
+				if (data < 3) {
 					/*Mostrar ventana de carga*/
 					$('#loading').show();
 					/*Cargar noticias*/
@@ -61,12 +54,10 @@ $(document).ready(function() {
 			}
 		}
 		
-		/*Mostrar/Ocultar botones AutoScroll y volver*/
-		finPubli=200+offsetNav.top;
 		
-		if ($(window).scrollTop()>finPubli) {
+		finPubli=200+offsetNav.top;
+			if ($(window).scrollTop()>finPubli) {
 			$('#botonVolver').show();
-			/*ajustarBotons();*/			
 		}
 		if ($(window).scrollTop()<finPubli) {			
 			$('#botonVolver').hide();	
