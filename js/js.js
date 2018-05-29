@@ -2,7 +2,6 @@ var data = 1;
 var offsetNav;
 var finPubli;
 var auto=false;
-
 var posScroll;
 var x;
 var margin;
@@ -14,10 +13,7 @@ $(document).ready(function() {
 		return false;
 		});
 	
-	/*determinar a cuantos pixeles se fija la barra del menu*/
-	var navBar = $( ".navbar-collapse" );
-	offsetNav=navBar.offset();
-	$(".navbar-inverse").attr('data-offset-top', offsetNav.top);	
+	
 	
 	/*VOLVER*/
 	$('#botonVolver').click(function(){	
@@ -100,14 +96,5 @@ function afegirBloc(jsonObject) {
 	$('#noticias').append('</div>');
 }
 
-function ajustarPadding() {
-	posScroll = $(window).scrollTop();
-	margin = $('nav').outerHeight(true);
-	x = $('.jumbotron').innerHeight();
-	if (posScroll > x) {
-		$('#contenido').css('margin-top', margin);
-	} else {
-		$('#contenido').css('margin-top', 0);
-	}
-}
+
 	
