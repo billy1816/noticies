@@ -36,22 +36,7 @@ html, body{
 	border-color:#333;
 }
 
-#autoscroll {
-	display:none;
-	position:fixed;
-	height:34px;
-	text-decoration: none;
-	border-color:#f0ad4e;
-	z-index:999;	
-}
 
-#autoscroll:focus {
-	background-color:#f0ad4e;
-}
-
-#autoscroll:active {
-	background-color:#f0ad4e;
-}
 	
 #botonVolver {
 	display:none;
@@ -68,45 +53,6 @@ html, body{
 	max-height:100%;
 }
 
-#pie {
-	position:fixed;
-	bottom:0;
-	width:100%;
-	height:14px;
-	color:white;
-	background-color:#333;
-	text-align:left;
-	font-family:Verdana;
-	font-size:0.7em;
-	padding-right:2%;
-	z-index:1000;
-}
-
-#loading {
-	display:none;
-	position:fixed;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background:rgba(51,51,51,0.6);
-	z-index:9999;
-}
-
-#loading img {
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin-top:-100px;
-	margin-left:-100px;
-	opacity:1;
-	width:200px;
-	max-width:200px;
-	max-height:200px;
-}
-
-
-@media (min-width:992px) {
 
 .jumbotron {	
 	padding-bottom: 0px;
@@ -135,7 +81,6 @@ p {
 	font-size:0.8em;	
 }
 	
-}
 .navbar {
 	font-family: 'Prompt', sans-serif;	
 }
@@ -205,11 +150,14 @@ p {
 
 #divMenu .navbar-nav {
 	margin:0;
+	text-align:left;
+	color:white;
+	background-color:grey;
+	
 }
 
-/*---ClimbArt en el header del menu---*/
 #inicio {
-	color:orange;
+	color:white;
 	display:block;
 	width:100%;
 	background-color:#333;
@@ -225,7 +173,7 @@ p {
     opacity:0.5;
 }
 
-#margen { /* ------------ NO CAMBIAR ORDEN. DESPUÉS DE .tipo a{} --------------*/
+#margen { 
 	padding-top:16px;
 	padding-bottom:16px;
 	text-align:center;
