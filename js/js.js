@@ -26,7 +26,7 @@ $('#botonVolver').click(function(){
 		}		
 	});
 	
-	/*Cargar noticias al pulsar boton */
+	/*Carregar noticies */
 	$('#boton1').click(function() {
 		if (data < 3) {
 			$.getJSON( 'https://rawgit.com/billy1816/noticies/billy1816-patch-1/data/data' + data + '.json', function(jsonObject) {
@@ -54,7 +54,7 @@ $('#botonVolver').click(function(){
 });
 	
 
-/* --------------------------------- Funciones ---------------------------------- */
+/* Funcio*/
 
 function afegirBloc(jsonObject) {
 	$('#noticias').append('<div class="row">'); 
