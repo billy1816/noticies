@@ -1,0 +1,14 @@
+[{
+	"titulo":"Netflix y Telefónica firman un nuevo acuerdo: los contenidos de Netflix se integrarán en Movistar",
+	"fecha":"15/02/2018  19:22",
+	"texto":"Hace tres años, cuando la plataforma de vídeo bajo demanda de Netflix llegó a España, siendo un lanzamiento muy esperado por muchos usuarios españoles, surgió al mismo tiempo una curiosa enemistad del servicio de contenidos en streaming con una de las compañías de marca nacional más importantes, que no es otra que Telefónica. Por aquella época, muchos clientes de la operadora se quejaban de la mala conexión con Netflix, de forma muy específica, lo que comenzó a agrandar los roces entre ambas empresas, pero ahora parece que han firmado la paz.",
+	"imagen":"img/netflix.jpg",
+	"alt":"Netflix y Telefonica"
+},{
+	"titulo":"El Xiaomi Mi 8 tendría un precio de partida de 370 euros según la última filtración",
+	"fecha":"14/02/2018  14:22",
+	"texto":"El Xiaomi Mi 8 llegará con un diseño bastante similar al del iPhone X, todo ello construido en torno a un panel de 6.01 pulgadas acompañada de una cámara 3D para el reconocimiento facial, y que cobra vida por medio del SoC Snapdragon 845 unido a 6 GB de memoria RAM LPDDR4X junto a 64 GB de almacenamiento interno, confirmándose también en el día de hoy la rumoreada versión de 8 GB de memoria RAM junto a 128 GB de almacenamiento interno para equipararse con las variantes más potentes de otros fabricantes como el que será el OnePlus 6.",
+	"imagen":"img/xiaomi.jpg",
+	"alt":"Xiaomi Mi 8"
+}	
+]
