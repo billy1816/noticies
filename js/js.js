@@ -1,10 +1,7 @@
 var data = 1;
 var offsetNav;
 var finPubli;
-var auto=false;
-var posScroll;
-var x;
-var margin;
+
 
 $(document).ready(function() {	
 		$('[data-toggle="tooltip"]').tooltip();
