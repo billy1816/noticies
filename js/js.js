@@ -6,7 +6,6 @@ var posScroll;
 var x;
 var margin;
 
-/* $(function(){...}); --> window.onload = function() {...};*/
 $(document).ready(function() {	
 		$('[data-toggle="tooltip"]').tooltip();
 		$('form').submit(function() {
@@ -14,9 +13,12 @@ $(document).ready(function() {
 		});
 	
 	
+var navBar = $( ".navbar-collapse" );
+	offsetNav=navBar.offset();
+	$(".navbar-inverse").attr('data-offset-top', offsetNav.top);	
 	
-	/*VOLVER*/
-	$('#botonVolver').click(function(){	
+	
+$('#botonVolver').click(function(){	
 		if ((window.matchMedia('(min-width: 768px)').matches)) {
 			$('#news1').focus();
 		} else {			
