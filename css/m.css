@@ -86,7 +86,7 @@ p {
 }
 
 h1, h2 {
-	color:white;
+	color:#2f4a5c;
 	background-color:#333;
 }
 
@@ -107,7 +107,6 @@ p {
 	display:none;
 }
 
-/*---boton oculto del menu. Header de la barra de navegacion---*/
 #botonMenu {
 	float:left;	
     background-color: #333;
@@ -115,13 +114,11 @@ p {
 	margin-left:16px;
 }
 
-/*imagen al lado del boton - logo. Header de la barra de navegacion*/
 .navbar-header img {
 	height:100px;
 	padding:15px 15px;
 }
 
-/*---fondo Header de la barra de navegacion---*/
 .navbar-inverse {
 	background-image: url(../img/ch.png);
     background-repeat: no-repeat;
@@ -137,13 +134,11 @@ p {
 	outline-color:#333;
 }
 
-/*---contenedor barra de navegacion---*/
 #divMenu {
 	padding:0;
 	border:none;
 }
 
-/*---Contenidos barra de navegacion---*/
 #divMenu .navbar-header {
 	text-align:left;
 }
@@ -162,7 +157,6 @@ p {
 	width:100%;
 	background-color:#333;
 }
-/*---menu---*/
 
 .navbar-inverse .navbar-nav>li>a {
 	color:#333;
@@ -221,10 +215,7 @@ p {
 	margin-bottom: 80px;
 }
 
-#autoscroll {
-	bottom:25px;
-	right:74px;	
-}
+
 	
 #botonVolver {
 	height:46px;
