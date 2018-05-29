@@ -39,10 +39,10 @@ $('#botonVolver').click(function(){
 	});
 	
 		
-		
+		$(window).scroll(function() {
+
 	
 		finPubli=200+offsetNav.top;
-		
 		if ($(window).scrollTop()>finPubli) {
 			$('#botonVolver').show();			
 		}
