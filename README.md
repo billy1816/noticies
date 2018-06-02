@@ -1,2 +1,2 @@
 # Treball final
-#Pàgina de noticies
+*Pàgina de noticies*
